@@ -1,0 +1,33 @@
+@import 'reboot';
+
+@font-face {
+  font-family: PottaOne;
+  src: url('../fonts/PottaOne-Regular.ttf');
+}
+
+
+html, body {
+  height: 100%;
+}
+
+canvas {
+}
+
+.wrapper {
+  padding: 50px;
+  //background: #000;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: PottaOne;
+  text-align: center;
+}
+
+.box {
+  margin: 50px auto;
+  height: 550px;
+  width: 90%;
+  background: #000;
+}
